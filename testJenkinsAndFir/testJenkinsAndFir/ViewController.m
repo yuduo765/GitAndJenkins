@@ -19,7 +19,16 @@
     
     self.view.backgroundColor = [UIColor brownColor];
     
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(10, 50, 50, 30)];
+    [btn setTitle:@"按钮" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(btnClicked) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)btnClicked {
+    NSLog(@" btnClicked ");
 }
 
 - (void)didReceiveMemoryWarning {
