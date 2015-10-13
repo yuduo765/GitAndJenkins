@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC4B7E811BCD2BC700AF8C81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4B7E801BCD2BC700AF8C81 /* ViewController.m */; };
 		ACF62A731BA2C2BF00C2D793 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF62A721BA2C2BF00C2D793 /* main.m */; };
 		ACF62A761BA2C2BF00C2D793 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF62A751BA2C2BF00C2D793 /* AppDelegate.m */; };
-		ACF62A791BA2C2BF00C2D793 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF62A781BA2C2BF00C2D793 /* ViewController.m */; };
 		ACF62A7C1BA2C2BF00C2D793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF62A7A1BA2C2BF00C2D793 /* Main.storyboard */; };
 		ACF62A7E1BA2C2BF00C2D793 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF62A7D1BA2C2BF00C2D793 /* Images.xcassets */; };
 		ACF62A811BA2C2BF00C2D793 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF62A7F1BA2C2BF00C2D793 /* LaunchScreen.xib */; };
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC4B7E801BCD2BC700AF8C81 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ACF62A6D1BA2C2BF00C2D793 /* testJenkinsAndFir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testJenkinsAndFir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF62A711BA2C2BF00C2D793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACF62A721BA2C2BF00C2D793 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACF62A741BA2C2BF00C2D793 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ACF62A751BA2C2BF00C2D793 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ACF62A771BA2C2BF00C2D793 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ACF62A781BA2C2BF00C2D793 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ACF62A7B1BA2C2BF00C2D793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACF62A7D1BA2C2BF00C2D793 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ACF62A801BA2C2BF00C2D793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 				ACF62A741BA2C2BF00C2D793 /* AppDelegate.h */,
 				ACF62A751BA2C2BF00C2D793 /* AppDelegate.m */,
 				ACF62A771BA2C2BF00C2D793 /* ViewController.h */,
-				ACF62A781BA2C2BF00C2D793 /* ViewController.m */,
+				AC4B7E801BCD2BC700AF8C81 /* ViewController.m */,
 				ACF62A7A1BA2C2BF00C2D793 /* Main.storyboard */,
 				ACF62A7D1BA2C2BF00C2D793 /* Images.xcassets */,
 				ACF62A7F1BA2C2BF00C2D793 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF62A791BA2C2BF00C2D793 /* ViewController.m in Sources */,
+				AC4B7E811BCD2BC700AF8C81 /* ViewController.m in Sources */,
 				ACF62A761BA2C2BF00C2D793 /* AppDelegate.m in Sources */,
 				ACF62A731BA2C2BF00C2D793 /* main.m in Sources */,
 			);
@@ -414,6 +414,7 @@
 				ACF62A921BA2C2BF00C2D793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACF62A931BA2C2BF00C2D793 /* Build configuration list for PBXNativeTarget "testJenkinsAndFirTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				ACF62A951BA2C2BF00C2D793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

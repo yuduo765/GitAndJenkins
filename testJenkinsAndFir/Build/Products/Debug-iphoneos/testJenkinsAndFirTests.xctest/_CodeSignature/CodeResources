@@ -6,11 +6,20 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		/HYG+BvgGOXxCnzocG2IF+zLs5o=
+		9urp/El74prw++ycpma5RvUJnTs=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		NW7gLs/wzcG+FZUW8OBT/t9LDjA=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>embedded.mobileprovision</key>
+		<data>
+		NW7gLs/wzcG+FZUW8OBT/t9LDjA=
+		</data>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^</key>
