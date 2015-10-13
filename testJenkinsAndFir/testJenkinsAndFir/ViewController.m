@@ -24,6 +24,11 @@
     [btn addTarget:self action:@selector(btnClicked) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
+    
+    UIButton *btn2 = [[UIButton alloc] initWithFrame:CGRectMake(10, 150, 50, 30)];
+    [btn2 setTitle:@"按钮2" forState:UIControlStateNormal];
+    [btn2 addTarget:self action:@selector(btnClicked) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn2];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
