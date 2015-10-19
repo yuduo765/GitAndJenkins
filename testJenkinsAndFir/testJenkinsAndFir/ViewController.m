@@ -18,6 +18,9 @@
     [self.view addSubview:btn];
 
     self.view.backgroundColor = [UIColor brownColor];
+    
+    
+    
 }
 
 -(void)newBtnClicked {
