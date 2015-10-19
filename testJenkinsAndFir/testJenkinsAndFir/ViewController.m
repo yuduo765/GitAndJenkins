@@ -20,7 +20,10 @@
     self.view.backgroundColor = [UIColor brownColor];
     
     
-    
+    UIButton *btn2 = [[UIButton alloc] initWithFrame:CGRectMake(10, 50, 50, 30)];
+    [btn2 setTitle:@"1019添加" forState:UIControlStateNormal];
+    [btn2 addTarget:self action:@selector(newBtnClicked) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn2];
 }
 
 -(void)newBtnClicked {
