@@ -24,6 +24,8 @@
     [btn2 setTitle:@"1019添加" forState:UIControlStateNormal];
     [btn2 addTarget:self action:@selector(newBtnClicked) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn2];
+    
+    //2015.13.03 add
 }
 
 -(void)newBtnClicked {
